@@ -1,0 +1,39 @@
+body
+    {
+        display: flex;
+        justify-content: center;
+        
+    }
+#objeto
+    {   background-color: rgb(12, 202, 12);
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        border: 10px double rgb(120, 17, 17);
+        position: absolute;
+        overflow: block;
+    }
+#corpo  
+    {
+        width: 500px;
+        height: 500px;
+        background-color: antiquewhite;
+        position:fixed;
+        border: 1px solid black;
+        overflow: hidden;
+        display: block;
+    }
+button
+    {
+        top: 520px;
+        position: absolute;
+        width: 200px;
+        height: 80px;
+        background-color: rgb(175, 242, 242);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+    }
+button:hover
+    {
+        background-color: rgb(105, 154, 154);
+    }
